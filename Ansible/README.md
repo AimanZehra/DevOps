@@ -9,5 +9,5 @@
 
 5. To run ansible adhoc commands we use:
     ansible inventory file location 
-     eg: ansible -i inventory 172.31.26.161
-         ansible -i inventory all -m "shell" -a "touch devops"
+     eg: **ansible -i inventory 172.31.26.161**<br/>
+         **ansible -i inventory all -m "shell" -a "touch devops"**
