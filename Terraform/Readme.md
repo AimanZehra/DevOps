@@ -54,3 +54,10 @@ Install Terraform from the new repository.
 ```plaintext
 sudo apt-get install terraform
 ```
+## Working with terraform
+
+1. Intitialize terraform
+```plaintext
+terraform init
+```
+2. 
