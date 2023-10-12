@@ -11,7 +11,7 @@
 **Apply** - Make the planned changes.
 
 
-### Linux: 
+### Linux: (Debian/Ubuntu)
 
 Ensure that our system is up to date and we have installed the gnupg, software-properties-common, and curl packages installed. we will use these packages to verify HashiCorp's GPG signature and install HashiCorp's Debian package repository.
 
