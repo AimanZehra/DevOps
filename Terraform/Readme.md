@@ -56,8 +56,24 @@ sudo apt-get install terraform
 ```
 ## Working with terraform
 
-1. Intitialize terraform
+**1. Intitialize terraform**
 ```plaintext
 terraform init
 ```
-2. 
+**2. Install AWS CLI on the container instance/machine**
+```plaintext
+sudo apt  install awscli
+```
+**3. Terraform Plan**
+```plaintext
+terraform plan
+```
+**4. Terraform Apply- it creates resources**
+```plaintext
+terraform apply
+```
+
+**NOTE**: For the easy configuration we should always write ouput.tf, input.tf and variables.tf for the terraform.
+
+
+Follow https://github.com/iam-veeramalla/write_your_first_terraform_project/tree/main for more info.
