@@ -44,7 +44,7 @@ sudo apt-get install jenkins
 ![Security Groups](image-1.png)
 
 ## Login to Jenkins using the below URL:
-http://:8080 [You can get the ec2-instance-public-ip-address from your AWS EC2 console page]
+http://[public IP Address of EC2 Instance]:8080 [You can get the ec2-instance-public-ip-address from your AWS EC2 console page]
 
 Note: If you are not interested in allowing ```All Traffic``` to your EC2 instance 1. Delete the inbound traffic rule for your instance 2. Edit the inbound traffic rule to only allow custom TCP port ```8080```
 
