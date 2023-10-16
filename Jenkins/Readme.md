@@ -44,7 +44,8 @@ sudo apt-get install jenkins
 ![Security Groups](image-1.png)
 
 ## Login to Jenkins using the below URL:
-http://[public IP Address of EC2 Instance]:8080 [You can get the ec2-instance-public-ip-address from your AWS EC2 console page]
+http://[public IP Address of EC2 Instance]:8080 
+**[You can get the ec2-instance-public-ip-address from your AWS EC2 console page]**
 
 Note: If you are not interested in allowing ```All Traffic``` to your EC2 instance 1. Delete the inbound traffic rule for your instance 2. Edit the inbound traffic rule to only allow custom TCP port ```8080```
 
@@ -53,17 +54,16 @@ After you login to Jenkins, - Run the command to copy the Jenkins Admin Password
 ![Getting started with jenkins](image-2.png)
 
 ## Click on Install suggested plugins
-![Alt text](image-3.png)
+![Alt text](image-3.png)\
+**Wait for the Jenkins to Install suggested plugins**\
 
-**Wait for the Jenkins to Install suggested plugins**
+![Alt text](image-4.png)\
+**Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]**\
 
-![Alt text](image-4.png)
-**Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]**
 
-![Alt text](image-5.png)
-
-**Jenkins Installation is Successful. You can now starting using the Jenkins**
-![Alt text](image-6.png)
+![Alt text](image-5.png)\
+**Jenkins Installation is Successful. You can now starting using the Jenkins**\
+![Alt text](image-6.png)\
 
 ## Install the Docker Pipeline plugin in Jenkins:
 * Log in to Jenkins.
@@ -97,4 +97,9 @@ Once you are done with the above steps, it is better to restart Jenkins.
 http://<ec2-instance-public-ip>:8080/restart
 ```
 
-**The docker agent configuration is now successful.**
+**The docker agent configuration is now successful.**\
+
+**Command to check on which specific instance jenkins is currently running:**
+```
+ps -ef | grep jenkins
+```
