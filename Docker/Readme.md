@@ -147,3 +147,6 @@ docker build -t aiman07/my-first-docker-image
 
 ### Push the Image to DockerHub
 docker push aiman07/my-first-docker-image
+
+### To delete a branch on github
+git push origin --delete [Branch Name]

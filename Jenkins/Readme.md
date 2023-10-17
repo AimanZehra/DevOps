@@ -92,6 +92,16 @@ usermod -aG docker ubuntu
 systemctl restart docker
 ```
 
+**We can switch the user using the command:**
+```
+su - jenkins
+```
+
+**To ensure docker is ensatlled and runniung we can use the below command:**
+```
+docker run hello-world
+```
+
 Once you are done with the above steps, it is better to restart Jenkins.
 ```
 http://<ec2-instance-public-ip>:8080/restart
@@ -103,3 +113,6 @@ http://<ec2-instance-public-ip>:8080/restart
 ```
 ps -ef | grep jenkins
 ```
+
+
+**Used docker as an agent in the jenkins project setup and found it very helpful in terms of cost and also in terms of efficiency.**
