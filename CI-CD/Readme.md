@@ -17,6 +17,12 @@ Continuous Delivery (CD):
 
 * Upon activation, these webhooks ask jenkins to trigger the pipeline.
 
-* Jenkins file is created to perform a set of action on jenkins like, build the application
+* Jenkins file is created to perform a set of action on jenkins like, build the application.
 
 ![Alt text](image.png).
+
+## CD:
+
+*  Continuous delivery tools: GitOps
+
+![Alt text](image-1.png)
