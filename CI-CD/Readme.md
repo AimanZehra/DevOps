@@ -19,4 +19,4 @@ Continuous Delivery (CD):
 
 * Jenkins file is created to perform a set of action on jenkins like, build the application
 
-![Alt text](image.png)
+![Alt text](image.png).
