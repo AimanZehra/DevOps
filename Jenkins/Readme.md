@@ -114,5 +114,10 @@ http://<ec2-instance-public-ip>:8080/restart
 ps -ef | grep jenkins
 ```
 
+**Command to check the jenkins log**
+```
+sudo journalctl -u jenkins
+```
+
 
 **Used docker as an agent in the jenkins project setup and found it very helpful in terms of cost and also in terms of efficiency.**
