@@ -4,7 +4,8 @@
 # Author: Aiman  Zehra
 # Date: 01.11.2023
 #
-# This script outputs the node health
+# This file consist of all important 
+# shell command used in DevOps
 #
 #Version: 1.0 (v1)
 ######################################
@@ -42,3 +43,9 @@ man curl
 
 # To get the details of any logfile/any external link and get it 'DOwnloaded' we use 'wget' eg:-
 wget https://github.com/AimanZehra/DevOps/tree/main/Terraform
+
+# To find the file in the system
+find
+
+# To trap the signal given and perform action on your behalf
+trap
