@@ -12,3 +12,13 @@
 * Contrary to other scripting languages, etc. it provides a minimal data structure.
 * Every time a shell command is executed, a new process is launched.
 
+**Netwrok traoubleshootong tools?**
+
+```
+* traceroute
+* tracepath
+```
+
+**How will we manage  logs of a system  that generate huge log files everyday?**
+
+Logrorate -> This is used to efficiently manage the linux machine logs.
