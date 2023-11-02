@@ -5,7 +5,7 @@
 * Instances(running)
 * Launch instances
 
-![Jenkins](image.png)
+![Jenkins](https://github.com/AimanZehra/DevOps/blob/main/Jenkins/Files/image.png)
 
 ## Install Jenkins
 * Pre-Requisites:
@@ -41,7 +41,7 @@ sudo apt-get install jenkins
 * Security groups
 * Add inbound traffic rules as shown in the image (you can just allow TCP 8080 as well, in my case, I allowed All traffic).
 
-![Security Groups](image-1.png)
+![Security Groups](https://github.com/AimanZehra/DevOps/blob/main/Jenkins/Files/image-1.png)
 
 ## Login to Jenkins using the below URL:
 http://[public IP Address of EC2 Instance]:8080 
@@ -51,19 +51,19 @@ Note: If you are not interested in allowing ```All Traffic``` to your EC2 instan
 
 After you login to Jenkins, - Run the command to copy the Jenkins Admin Password ```- sudo cat /var/lib/jenkins/secrets/initialAdminPassword``` - Enter the Administrator password
 
-![Getting started with jenkins](image-2.png)
+![Getting started with jenkins](https://github.com/AimanZehra/DevOps/blob/main/Jenkins/Files/image-2.png)
 
 ## Click on Install suggested plugins
-![Alt text](image-3.png)\
+![Alt text](https://github.com/AimanZehra/DevOps/blob/main/Jenkins/Files/image-3.png)\
 **Wait for the Jenkins to Install suggested plugins**\
 
-![Alt text](image-4.png)\
+![Alt text](https://github.com/AimanZehra/DevOps/blob/main/Jenkins/Files/image-4.png)\
 **Create First Admin User or Skip the step [If you want to use this Jenkins instance for future use-cases as well, better to create admin user]**\
 
 
-![Alt text](image-5.png)\
+![Alt text](https://github.com/AimanZehra/DevOps/blob/main/Jenkins/Files/image-5.png)\
 **Jenkins Installation is Successful. You can now starting using the Jenkins**\
-![Alt text](image-6.png)\
+![Alt text](https://github.com/AimanZehra/DevOps/blob/main/Jenkins/Files/image-6.png)\
 
 ## Install the Docker Pipeline plugin in Jenkins:
 * Log in to Jenkins.
@@ -72,7 +72,7 @@ After you login to Jenkins, - Run the command to copy the Jenkins Admin Password
 * Select the plugin and click the Install button.
 * Restart Jenkins after the plugin is installed.
 
-![Alt text](image-7.png)
+![Alt text](https://github.com/AimanZehra/DevOps/blob/main/Jenkins/Files/image-7.png)
 
 **Wait for the Jenkins to be restarted.**
 
