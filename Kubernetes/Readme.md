@@ -63,3 +63,10 @@ kubectl get pods -o wide
 ```
 
 ![Alt text](image.png)
+
+**To see all the details of the created pod, use the below command to debug and check deep insight of the pod**
+
+```
+kubectl describe pod 'podname'
+kubectl logs 'podname'
+```
