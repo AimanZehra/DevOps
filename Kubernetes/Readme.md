@@ -51,6 +51,7 @@ spec:
 ## To create a pod use  the below commands:
 ```
 kubectl create -f pod.yml
+kubectl apply -f pod.yml
 ```
 
 ## To check the pods use below command
@@ -62,7 +63,12 @@ kubectl get pods
 kubectl get pods -o wide
 ```
 
-![Alt text](image.png)
+![Alt text](image.png)\
+
+After this we login to our remote kubernetes cluster
+ssh -i <identity file> <node name> <Ip Address> 
+
+
 
 **To see all the details of the created pod, use the below command to debug and check deep insight of the pod**
 
@@ -70,3 +76,24 @@ kubectl get pods -o wide
 kubectl describe pod 'podname'
 kubectl logs 'podname'
 ```
+**To list out all the available resources in a particular namespace we use the below command**
+```
+kubectl get all
+```
+**For all the namespaces we can use**
+```
+kubectl get all -A
+```
+**To watch the pods, we use below command**
+```
+kubectl get pods -w
+```
+
+**To see the replica sets**
+```
+kubectl get rs
+```
+
+### Questions:
+* Difference between containers, pods and deployment
+* Difference between deployment and Replica Set
