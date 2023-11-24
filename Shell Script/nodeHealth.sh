@@ -49,3 +49,6 @@ find
 
 # To trap the signal given and perform action on your behalf
 trap
+
+# To find which bash am I using
+which bash
