@@ -52,3 +52,10 @@ trap
 
 # To find which bash am I using
 which bash
+
+# Command to check the top processes using the CPU
+top
+
+# Command to fetch the specific column from the output
+awk
+example: df -h | awk '{print $1 " " $5}'
