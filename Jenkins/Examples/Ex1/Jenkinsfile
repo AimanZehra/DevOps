@@ -1,4 +1,5 @@
-via: ' https://github.com/iam-veeramalla/Jenkins-Zero-To-Hero/blob/main/java-maven-sonar-argocd-helm-k8s/spring-boot-app/JenkinsFile '
+via: 'https://github.com/N4si/DevSecOps-Project'
+
 
 pipeline{
     agent any
