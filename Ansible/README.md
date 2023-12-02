@@ -1,5 +1,16 @@
 # Ansible
 
+**What is Ansible?** 
+Ansible is an automation tool designed for orchestrating infrastructure, applications, and networks. It uses a declarative language to describe system configurations and automates tasks without the need for agents on remote systems. Ansible is known for its simplicity, flexibility, and scalability, making it a popular choice for DevOps teams.
+
+**Key Concepts:**
+
+**Inventory:** Ansible uses an inventory file to define and organize your target nodes. This file lists the hosts you want to manage and categorizes them into groups.
+**Playbooks:** Playbooks are written in YAML and define a set of tasks to be executed on one or more hosts. They describe the desired state of a system.
+**Modules:** Ansible modules are reusable, standalone scripts that perform specific tasks. Modules are executed on target nodes to bring them to the desired state.
+
+
+
 *  To install Ansible on an aws EC2 instace (Master Node) we use:\
 
 ``` 
