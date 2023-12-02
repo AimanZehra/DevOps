@@ -10,7 +10,10 @@ Ansible is an automation tool designed for orchestrating infrastructure, applica
 **Modules:** Ansible modules are reusable, standalone scripts that perform specific tasks. Modules are executed on target nodes to bring them to the desired state.
 
 
-**href: https://blog.devops.dev/automate-your-infrastructure-with-ansible-a-step-by-step-guide-a85223c6f02f**
+**https://blog.devops.dev/automate-your-infrastructure-with-ansible-a-step-by-step-guide-a85223c6f02f**
+
+
+
 
 
 *  To install Ansible on an aws EC2 instace (Master Node) we use:\
