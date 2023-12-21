@@ -77,3 +77,9 @@ terraform apply
 
 
 Follow https://github.com/iam-veeramalla/write_your_first_terraform_project/tree/main for more info.
+
+## TERMINIOGIES
+
+### .terraform.lock.hcl
+Terraform creates a lock file .terraform.lock.hcl to record the provider selections it made above.
+**Including this file in our version control repository so that Terraform can guarantee to make the same selections by default when we run "terraform init" in the future.**
