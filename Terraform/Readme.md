@@ -72,6 +72,13 @@ terraform plan
 ```plaintext
 terraform apply
 ```
+**5. Terraform format- To do formatting of all the texts written in terraform files**
+```plaintext
+terraform fmt
+```
+
+
+
 
 **NOTE**: For the easy configuration we should always write ouput.tf, input.tf and variables.tf for the terraform.
 
