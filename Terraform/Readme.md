@@ -76,6 +76,10 @@ terraform apply
 ```plaintext
 terraform fmt
 ```
+**6. Terraform destroy - To destro all the changes**
+```plaintext
+terraform destroy
+```
 
 
 
