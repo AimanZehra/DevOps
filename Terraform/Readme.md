@@ -72,8 +72,25 @@ terraform plan
 ```plaintext
 terraform apply
 ```
+**5. Terraform format- To do formatting of all the texts written in terraform files**
+```plaintext
+terraform fmt
+```
+**6. Terraform destroy - To destro all the changes**
+```plaintext
+terraform destroy
+```
+
+
+
 
 **NOTE**: For the easy configuration we should always write ouput.tf, input.tf and variables.tf for the terraform.
 
 
 Follow https://github.com/iam-veeramalla/write_your_first_terraform_project/tree/main for more info.
+
+## TERMINIOGIES
+
+### .terraform.lock.hcl
+Terraform creates a lock file .terraform.lock.hcl to record the provider selections it made above.
+**Including this file in our version control repository so that Terraform can guarantee to make the same selections by default when we run "terraform init" in the future.**
