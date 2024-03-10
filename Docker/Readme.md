@@ -142,7 +142,7 @@ docker images
 ### Run the First Docker Container
 
 ```plaintext
-docker build -t aiman07/my-first-docker-image
+docker run -t aiman07/my-first-docker-image
 ```
 
 ### Push the Image to DockerHub
