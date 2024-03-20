@@ -150,3 +150,19 @@ docker push aiman07/my-first-docker-image
 
 ### To delete a branch on github
 git push origin --delete [Branch Name]
+
+
+
+
+### In short installation steps are:
+
+```
+sudo apt-get update
+sudo apt-get install docker.io -y
+sudo usermod -aG docker ubuntu   #my case is ubuntu
+newgrp docker
+sudo chmod 777 /var/run/docker.sock
+
+```
+
+
