@@ -90,3 +90,22 @@ Continuous Delivery (CD):
 *  Continuous delivery tools: GitOps
 
 ![Alt text](image-1.png)
+
+
+
+
+
+
+
+
+
+
+## Steps for the CI-CD Flow using Jenkins
+
+1. Install Jenkins (security group: 8080)
+2. Install Sonarqube (security group: 9000)
+3. Install Plugins in Jenkins
+   ```
+   Manage Jenkins →Plugins → Available Plugins →
+
+   ```
