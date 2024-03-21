@@ -104,8 +104,31 @@ Continuous Delivery (CD):
 
 1. Install Jenkins (security group: 8080)
 2. Install Sonarqube (security group: 9000)
-3. Install Plugins in Jenkins
+3. Install Plugins in Jenkins:
+   For example: install plugins according to the requiremnt like, Docker, Kubernetes, Nodejs, Sonarscanner etc using the below path
+   
    ```
    Manage Jenkins →Plugins → Available Plugins →
-
    ```
+4. Generate token in Sonar scanner using the path
+   ```
+    Administration → Security → Users → Click on Tokens and Update Token → Give it a name → and click on Generate Token
+   ```
+5. Go to Jenkins Dashboard → Manage Jenkins → Credentials → Add Secret Text for the above token.
+6. Go to Dashboard → Manage Jenkins → System and add details like:
+   ```
+   Sonar-server
+   url: http://EC2 IP:9000
+   server authentication token: sonar-token
+   ```
+7. Go to Manage Jenkins → Tools and configure the applications which we want to install like:
+   ```
+   NodeJs(16)
+   JDK(17)
+   sonar-scanner
+   OWASP dependency check
+   Docker
+   Terraform
+   ```
+   
+   
