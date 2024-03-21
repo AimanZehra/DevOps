@@ -130,5 +130,15 @@ Continuous Delivery (CD):
    Docker
    Terraform
    ```
+8. After running the pipeline and clearting the eks cluster use the below command on the command line
+
+```
+aws eks update-kubeconfig --name EKS_CLOUD --region eu-central-1
+
+```
+9. cd .kube/
+10. cat config
+11.  copy everything and make a text file (eg: REDDIT-SECRET')
+12.  Go to Dashboard → Manage Jenkins → Credentials → Add secret file and thus select the file above from the desktop for the kubernetes secret.
    
    
