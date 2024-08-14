@@ -32,6 +32,9 @@ steps:
     echo $cluster_name > /workspace/cluster_name.txt
     echo $deployment_name > /workspace/deployment_name.txt
     echo $namespace > /workspace/namespace.txt
+    cat /workspace/deployment_name.txt
+    cat /workspace/namespace.txt
+
 
 options:
   logging: CLOUD_LOGGING_ONLY
